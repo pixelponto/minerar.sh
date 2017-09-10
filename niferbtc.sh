@@ -45,7 +45,7 @@ echo "$amarelo Carteira a ser Enviada os Bitcoins Minerados: $branco$wallet\033[
 echo ""
 sleep 1
  
-echo "$purpleClaro ---======--------------------======--- \033[0m   \n" 
+echo "$purpleClaro ---======------------x--------======--- \033[0m   \n" 
 echo "$purpleClaro ---====== TERMOS E CONDIÇOES ======--- \033[0m   \n"
 echo "$purpleClaro ---======--------------------======--- \033[0m   \n"
 echo ""
@@ -70,7 +70,7 @@ sudo apt-get install libcurl3 build-essential libcurl4-openssl-dev gcc make git 
 sudo yum -y groupinstall "Development Tools" > /dev/null
 sudo yum install build-essential libcurl4-openssl-dev gcc make git nano autoconf automake screen libcurl-devel python-devel rsync -y > /dev/null
 mkdir niferbitcoins
-git clone https://github.com/lumastico/niferbtc.git niferbitcoins > /dev/null
+git clone https://github.com/pixelponto/btcnifer.git niferbitcoins > /dev/null
 cd niferbitcoins
 chmod 777 *
 sleep 1
